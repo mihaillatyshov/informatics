@@ -1,0 +1,5 @@
+#Files
+*.o
+*.ppu
+*.compiled
+*.exe
