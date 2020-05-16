@@ -1,7 +1,5 @@
 program project1;
 
-uses unit1;
-
 Type
   IntMat = array of array of Integer;
 
@@ -77,7 +75,8 @@ begin
 
     for i := 0 to yc - 1 do
     begin
-      arr[y - i][x] := IncDec();
+      arr[y
+    TextOut(A.X, A.Y, 'A');- i][x] := IncDec();
     end;
     if xc = 0 then
       break;
