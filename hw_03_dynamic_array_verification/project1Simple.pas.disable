@@ -1,0 +1,88 @@
+program project1;
+
+type
+  TArray = array of Integer;
+
+var
+  M, N, K : Integer;
+  ArrM, ArrN : TArray;
+  RidM, RidN, ValId : Integer;
+  LastVal : Integer;
+  i : Integer;
+
+begin
+  // Geting data form user
+  Write('Enter first array size: ');
+  ReadLn(M);
+  SetLength(ArrM, M);
+  Write('Enter values: ');
+  for i := 0 to Length(ArrM) - 1 do
+    Read(ArrM[i]);
+  ReadLn();
+                                    
+  Write('Enter second array size: ');
+  ReadLn(N);
+  SetLength(ArrN, N);
+  Write('Enter values: ');
+  for i := 0 to Length(ArrN) - 1 do
+    Read(ArrN[i]);
+  ReadLn();
+
+  Write('Enter K value: ');
+  ReadLn(K);
+
+  // Doing somthing with data...
+  if ArrM[0] <= ArrN[0] then
+  begin
+    LastVal := ArrM[0];
+    RidM := 1;
+    RidN := 0;
+  end
+  else
+  begin
+    LastVal := ArrN[0];
+    RidM := 0;
+    RidN := 1;
+  end;
+  ValId := 1;
+
+  while ValId < K do
+  begin
+    if RidM = Length(ArrM) then
+    begin
+      if ArrN[RidN] > LastVal then
+        ValId += 1;               
+      LastVal := ArrN[RidN];
+      RidN += 1;
+      continue;
+    end;
+
+    if RidN = Length(ArrN) then
+    begin
+      if ArrM[RidM] > LastVal then
+        ValId += 1;                
+      LastVal := ArrM[RidM];
+      RidM += 1;
+      continue;
+    end;
+
+    if (ArrM[RidM] <= ArrN[RidN]) then
+    begin
+      if ArrM[RidM] > LastVal then
+        ValId += 1;
+      LastVal := ArrM[RidM];
+      RidM += 1;
+    end
+    else
+    begin   
+      if ArrN[RidN] > LastVal then
+        ValId += 1;
+      LastVal := ArrN[RidN];
+      RidN += 1;
+    end;
+  end;
+
+  WriteLn('Found value: ', LastVal);
+  ReadLn();
+end.
+
