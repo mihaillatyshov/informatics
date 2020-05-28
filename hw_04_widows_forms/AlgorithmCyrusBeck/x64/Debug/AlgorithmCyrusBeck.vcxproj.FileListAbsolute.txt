@@ -1,0 +1,10 @@
+I:\CPP\CLR_1\AlgorithmCyrusBeck\x64\Debug\AlgorithmCyrusBeck.exe
+I:\CPP\CLR_1\AlgorithmCyrusBeck\x64\Debug\AlgorithmCyrusBeck.pdb
+I:\CPP\CLR_1\AlgorithmCyrusBeck\x64\Debug\AlgorithmCyrusBeck.MyForm.resources
+I:\CPP\CLR_1\AlgorithmCyrusBeck\x64\Debug\AlgorithmCyrusBeck.vcxproj.GenerateResource.cache
+I:\CPP\CLR_1\AlgorithmCyrusBeck\x64\Debug\AlgorithmCyrusBeck.vcxprojAssemblyReference.cache
+I:\lazarus_projects\2020\Labs\hw_04_widows_forms\AlgorithmCyrusBeck\x64\Debug\AlgorithmCyrusBeck.vcxprojAssemblyReference.cache
+I:\lazarus_projects\2020\Labs\hw_04_widows_forms\AlgorithmCyrusBeck\x64\Debug\AlgorithmCyrusBeck.MyForm.resources
+I:\lazarus_projects\2020\Labs\hw_04_widows_forms\AlgorithmCyrusBeck\x64\Debug\AlgorithmCyrusBeck.vcxproj.GenerateResource.cache
+I:\lazarus_projects\2020\Labs\hw_04_widows_forms\AlgorithmCyrusBeck\x64\Debug\AlgorithmCyrusBeck.exe
+I:\lazarus_projects\2020\Labs\hw_04_widows_forms\AlgorithmCyrusBeck\x64\Debug\AlgorithmCyrusBeck.pdb

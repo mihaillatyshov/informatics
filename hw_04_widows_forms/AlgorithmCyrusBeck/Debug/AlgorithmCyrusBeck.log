@@ -1,0 +1,120 @@
+﻿  MyForm.cpp
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  Создание кода...
+  MyForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+LINK : fatal error LNK1561: точка входа должна быть определена
+
+Итоги по проекту:
+     1571 мс вызовов   1 I:\CPP\CLR_1\AlgorithmCyrusBeck\AlgorithmCyrusBeck.vcxproj
+               1571 мс вызовов   1 Build                                   
+
+Итоги по целям:
+        0 мс вызовов   1 AfterBuildGenerateSourcesEvent          
+        0 мс вызовов   1 CopyFileToFolders                       
+        0 мс вызовов   1 _Xsd                                    
+        0 мс вызовов   1 MakeDirsForMidl                         
+        0 мс вызовов   1 AfterMidl                               
+        0 мс вызовов   1 PrepareResourceNames                    
+        0 мс вызовов   1 AfterBuildGenerateSources               
+        0 мс вызовов   1 _BuildGenerateSourcesAction             
+        0 мс вызовов   1 BuildGenerateSources                    
+        0 мс вызовов   1 BuildCompileTraverse                    
+        0 мс вызовов   1 BeforeClCompile                         
+        0 мс вызовов   1 SelectClCompile                         
+        0 мс вызовов   1 AfterClCompile                          
+        0 мс вызовов   1 SelectCustomBuild                       
+        0 мс вызовов   1 _ClCompile                              
+        0 мс вызовов   1 MakeDirsForResourceCompile              
+        0 мс вызовов   1 AfterResourceCompile                    
+        0 мс вызовов   1 _ResourceCompile                        
+        0 мс вызовов   1 AfterBuildCompileEvent                  
+        0 мс вызовов   1 _BuildCompileAction                     
+        0 мс вызовов   1 BuildCompile                            
+        0 мс вызовов   1 BeforeLink                              
+        0 мс вызовов   1 ComputeRCOutputs                        
+        0 мс вызовов   1 ComputeManifestGeneratedLinkerInputs    
+        0 мс вызовов   1 ComputeLinkInputsFromProject            
+        0 мс вызовов   1 ComputeManifestInputsTargets            
+        0 мс вызовов   1 CreateCustomManifestResourceNames       
+        0 мс вызовов   1 BeforeResourceCompile                   
+        0 мс вызовов   1 _SelectedFiles                          
+        0 мс вызовов   1 _Midl                                   
+        0 мс вызовов   1 BuildGenerateSourcesTraverse            
+        0 мс вызовов   1 SetCABuildNativeEnvironmentVariables    
+        0 мс вызовов   1 ResolveSDKReferences                    
+        0 мс вызовов   1 ResolveReferences                       
+        0 мс вызовов   1 BeforeResolveReferences                 
+        0 мс вызовов   1 AfterResolveReferences                  
+        0 мс вызовов   1 BeforeBuildGenerateSources              
+        0 мс вызовов   1 _RemoveZipFileSuggestedRedirect         
+        0 мс вызовов   1 PreLinkEvent                            
+        0 мс вызовов   1 PrepareProjectReferences                
+        0 мс вызовов   1 ExpandSDKReferences                     
+        0 мс вызовов   1 ComputeMIDLGeneratedCompileInputs       
+        0 мс вызовов   1 ComputeLegacyManifestEmbedding          
+        0 мс вызовов   1 ComputeCustomBuildOutput                
+        0 мс вызовов   1 SetBuildDefaultEnvironmentVariables     
+        0 мс вызовов   1 FixupCLCompileOptions                   
+        0 мс вызовов   1 ComputeCLOutputs                        
+        0 мс вызовов   1 ComputeCLGeneratedLinkInputs            
+        0 мс вызовов   1 GetResolvedWinMD                        
+        0 мс вызовов   1 MakeDirsForLink                         
+        0 мс вызовов   1 PreBuildEvent                           
+        0 мс вызовов   1 ComputeRCGeneratedLinkInputs            
+        0 мс вызовов   1 ImplicitlyExpandDesignTimeFacades       
+        0 мс вызовов   1 DoLinkOutputFilesMatch                  
+        0 мс вызовов   1 BuildLinkTraverse                       
+        1 мс вызовов   1 ComputeCLInputPDBName                   
+        1 мс вызовов   1 ImplicitlyExpandNETStandardFacades      
+        1 мс вызовов   1 _CheckWindowsSDKInstalled               
+        1 мс вызовов   1 AssignTargetPaths                       
+        2 мс вызовов   1 GetFrameworkPaths                       
+        2 мс вызовов   1 ComputeReferenceCLInput                 
+        2 мс вызовов   1 SplitResourcesByCulture                 
+        2 мс вызовов   1 GenerateTargetFrameworkMonikerAttribute 
+        5 мс вызовов   1 ComputeLinkSwitches                     
+        5 мс вызовов   1 FindReferenceAssembliesForReferences    
+        6 мс вызовов   1 MakeDirsForCl                           
+        6 мс вызовов   1 _SplitProjectReferencesByFileExistence  
+        7 мс вызовов   1 WarnCompileDuplicatedFilename           
+        7 мс вызовов   1 _PrepareForReferenceResolution          
+        7 мс вызовов   1 GetReferenceAssemblyPaths               
+        8 мс вызовов   1 ManagedIncrementalBuildPostProcessDependencyGraph
+        9 мс вызовов   1 InitializeBuildStatus                   
+       10 мс вызовов   1 _GetProjectReferenceTargetFrameworkProperties
+       10 мс вызовов   1 GenerateBindingRedirects                
+       10 мс вызовов   1 CustomBuild                             
+       14 мс вызовов   1 SetTelemetryEnvironmentVariables        
+       20 мс вызовов   1 _PrepareForBuild                        
+       20 мс вызовов   1 AssignProjectConfiguration              
+       22 мс вызовов   1 ResolveProjectReferences                
+       26 мс вызовов   1 ManagedIncrementalBuildPreProcessDependencyGraph
+       28 мс вызовов   1 _HandlePackageFileConflicts             
+       41 мс вызовов   1 PrepareForBuild                         
+       81 мс вызовов   1 _CheckForInvalidConfigurationAndPlatform
+      141 мс вызовов   1 ResolveAssemblyReferences               
+      350 мс вызовов   1 Link                                    
+      663 мс вызовов   1 ClCompile                               
+
+Итоги по задачам:
+        1 мс вызовов   1 CheckVCToolsetVersion                   
+        1 мс вызовов   1 ReadLinesFromFile                       
+        1 мс вызовов   1 Delete                                  
+        1 мс вызовов   4 AssignTargetPath                        
+        1 мс вызовов   1 AssignCulture                           
+        2 мс вызовов   1 GenerateBindingRedirects                
+        2 мс вызовов   1 WriteLinesToFile                        
+        5 мс вызовов   1 Touch                                   
+        6 мс вызовов   8 SetEnv                                  
+        6 мс вызовов   1 GetReferenceAssemblyPaths               
+        7 мс вызовов   1 MSBuild                                 
+        7 мс вызовов   1 MIBPostProcessDependencyGraph           
+       10 мс вызовов   3 GetOutOfDateItems                       
+       20 мс вызовов   1 AssignProjectConfiguration              
+       25 мс вызовов   2 Message                                 
+       26 мс вызовов   1 MIBPreProcessDependencyGraph            
+       26 мс вызовов   1 ResolvePackageFileConflicts             
+       33 мс вызовов   7 MakeDir                                 
+      139 мс вызовов   1 ResolveAssemblyReference                
+      349 мс вызовов   1 Link                                    
+      660 мс вызовов   1 CL                                      
